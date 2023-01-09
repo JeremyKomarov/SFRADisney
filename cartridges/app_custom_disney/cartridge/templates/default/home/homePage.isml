@@ -1,0 +1,18 @@
+<isdecorate template="common/layout/page">
+    <isscript>
+        var assets = require('*/cartridge/scripts/assets.js');
+        assets.addCss('/css/newNav.css');
+    </isscript>
+
+    <div style="width:100%; position:relative; background:red">
+        <isslot id="main-promo-img" context="global" description="promo banner" />
+    </div>
+
+    <div style="position:absolute;top:45%;left:7%;transform:translateY(-45%);max-width:25rem">
+        <isslot id="main-promo-title" context="global" description="promo  title" />
+    </div>
+
+
+
+
+</isdecorate>
